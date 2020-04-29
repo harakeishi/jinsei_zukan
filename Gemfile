@@ -35,6 +35,12 @@ gem 'materialize-sass'
 gem 'material_icons'
 gem 'faker'
 
+gem 'bcrypt'
+gem 'jwt_sessions'
+#[jwt_sessions]のデフォルトのメモリーストア
+gem 'redis'
+gem 'redis-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
